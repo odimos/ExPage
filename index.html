@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Γιώργος Παπαδόπουλος – Software Engineer</title>
+
+  <link rel="canonical" href="https://yourdomain.gr/">
+
+  <link rel="alternate" hreflang="el" href="https://yourdomain.gr/">
+  <link rel="alternate" hreflang="en" href="https://yourdomain.gr/en/">
+  <script src="nav_script.js" defer></script>
+  <link rel="stylesheet" href="home_style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <li><a href="">Home</a></li>
+      <li><a href="">Games</a></li>
+      <li><a id="android" href="#" data-target="" class="toggleDialog" >Android</a></li>
+      <li><a id="web" href="#" data-target="" class="toggleDialog" >Web</a></li>
+      <li><a id="data_analysis" href="#" data-target="" class="toggleDialog" >Data</a></li>
+
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+
+    </nav>
+  </header>
+
+  <dialog open>
+    <p>Hello!<br> Put your invite code below</p>
+    <form method="dialog">
+      <input id="inviteCode" type="text" placeholder="Invite code">
+      <br>
+      <p id="dialogError" style="color:red; display:none;"></p>
+
+      <br>
+      <button type="button" id="okBtn">OK</button>
+      <button type="submit" id="cancelBtn">Cancel</button>
+
+    </form>
+  </dialog>
+
+<main>
+  <h1>Γιώργος Παπαδόπουλος</h1>
+
+  <p>
+    Είμαι ο Γιώργος Παπαδόπουλος, απόφοιτος του τμήματος Πληροφορικής του Οικονομικού Πανεπιστημίου Αθηνών. 
+    Ασχολούμαι με την ανάπτυξη Εφαρμογών στον ιστό και σε συσκευές  Android, και την ανάλυση δεδομένων.
+  </p>
+  <section>
+      <article class="toggleDialog">
+        <h3>Android</h3>
+        <img src="android_image.jpg" alt="Ανάπτυξη εφαρμογών Android">
+      </article>
+
+      <article class="toggleDialog">
+        <h3>Web development</h3>
+        <img src="web_image.jpg" alt="Ανάπτυξη εφαρμογών ιστού">
+      </article>
+
+      <article class="toggleDialog">
+        <h3>Data analysis</h3>
+        <img src="data_analysis_image.jpg" alt="Ανάλυση δεδομένων">
+      </article>
+
+        <article>
+        <h3>Games</h3>
+        <img src="games_image.jpg" alt="Παιχνίδια">
+      </article>
+  </section>
+</main>
+
+<footer>
+  <p>© 2024 Γιώργος Παπαδόπουλος. All rights reserved.</p>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Γιώργος Παπαδόπουλος",
+  "alternateName": "Giorgos Papadopoulos",
+  "url": "https://yourdomain.gr/",
+  "sameAs": [
+    "https://github.com/..."
+  ]
+}
+</script>
+
+</body>
+</html>
